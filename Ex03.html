@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        let preço = Number(prompt("Insira o valor da conta: "))
+        let desconto = preço * 0.10;
+        let vista = preço - desconto ;
+        let parcelado = preço / 3;
+        let texto1 = "Valor à Vista: ";
+        let texto2 = " Ou 3x de: ";
+        let resultado = texto1 + vista + texto2 + parcelado;
+        console.log(resultado);
+        alert(resultado);
+    </script>
+</body>
+</html>

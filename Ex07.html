@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        let pequena = Number(prompt("Informe a quantidade de camisetas pequenas que foram vendidas: "))
+        let medio = Number(prompt("Informe a quantidade de camisetas médias que foram vendidas: "))
+        let grande = Number(prompt("Informe a quantidade de camisetas grandes que foram vendidas: "))
+        let valorP = pequena * 10;
+        let valorM = medio * 12;
+        let valorG = grande * 15;
+        let valorTotal = valorP + valorM + valorG;
+        let texto = "O total arrecadado foi de R$";
+        let resultado = texto + valorTotal;
+        console.log(resultado);
+        alert(resultado);
+
+    </script>
+</body>
+</html>
